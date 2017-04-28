@@ -16,4 +16,4 @@ deployment:
     commands:
       - webpack
       - ls dist/
-      - aws s3 cp dist/bundle.js tkd-kyodocoui/js/
+      - aws s3 cp dist/bundle.js s3://tkd-kyodocoui/js/
