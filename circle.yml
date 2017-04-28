@@ -5,8 +5,3 @@ machine:
     version: 6.10.2
   post:
     - npm install -g npm@3
-
-dependencies:
-  override:
-    - npm cache clean
-    - npm install
