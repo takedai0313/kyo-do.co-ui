@@ -14,4 +14,4 @@ deployment:
   master:
     branch: master
     commands:
-      - ls
+      - ls dist/
